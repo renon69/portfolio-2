@@ -29,7 +29,7 @@ const Contact = () => {
         {/* start of grid */}
         
 
-        <div className="container bg-gray-300 border border-neutral-900 -mt-20 w-custom h-custom2 rounded-2xl shadow-2xl ">
+        <div className="container bg-gray-300 border border-neutral-900 -mt-20 w-custom h-custom rounded-2xl shadow-2xl ">
           <h3>SAY HELLO</h3>
           <div className="  "></div>
           <form className='mx-20' ref={form} onSubmit={sendEmail}  >
