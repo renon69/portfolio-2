@@ -21,8 +21,8 @@ const About = () => {
                 </ul>
 
                 <ul class="space-x-4 flex flex-row justify-center w-full mb-4">
-                    <li class="text-sm text-gray-800"><strong class="text-gray-900"></strong>BSIT</li>
-                    <li class="text-sm text-gray-800"><strong class="text-gray-900">Holy Name University</strong> </li>
+                    <li class="text-sm text-gray-800"><strong class="text-gray-900"></strong></li>
+                    <li class="text-sm text-gray-800"><strong class="text-gray-900"></strong> </li>
                 </ul>
                 <button class="transition-colors bg-purple-700 hover:bg-purple-800 p-2 rounded-sm w-full text-white text-hover shadow-md shadow-purple-900 ">
                     Let's Talk
