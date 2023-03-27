@@ -17,7 +17,7 @@ const About = () => {
                 </div>
                 <ul class="space-y-4  md:space-y-0 space-x-0 md:space-x-4 flex flex-col md:flex-row text-left justify-center">
                     <li class="text-sm"><i class="iconoir-pin-alt mr-2"></i></li>
-                    <li class="text-sm"><i class="iconoir-calendar mr-2"></i>Member since 2019 </li>
+                    <li class="text-sm"><i class="iconoir-calendar mr-2"></i>2023 Graduate</li>
                 </ul>
 
                 <ul class="space-x-4 flex flex-row justify-center w-full mb-4">
