@@ -5,7 +5,7 @@ import bg3 from '../images/svg/bg3.svg'
 const About = () => {
   return (
     <div class='flex items-center justify-center pb-custom '>
-        <div className='flex justify-center absolute'>
+        <div className='flex justify-center absolute '>
             <img className='' src={bg3} alt="" />
         </div>
     <div class='w-full max-w-lg pt-7 flex flex-row items-center justify-center mx-auto bg-gray-200 rounded-2xl shadow-xl  '>

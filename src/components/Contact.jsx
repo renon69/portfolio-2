@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import bg1 from '../images/svg/bg1.svg'
+import bg3 from '../images/svg/bg3.svg'
 
 const Contact = () => {
   const[sent, setSent] = useState("send")
@@ -29,11 +29,11 @@ const Contact = () => {
      
         {/* start of grid */}
         <div className='flex justify-center'>
-          <img className='absolute ' src={bg1} alt="" />
+          <img className='absolute ' src={bg3} alt="" />
         </div>
         
 
-        <div className="container bg-gray-300 border border-neutral-900 -mt-20 w-custom h-custom2 rounded-2xl shadow-2xl ">
+        <div className="container bg-gray-300 border border-neutral-900  w-custom h-custom2 rounded-2xl shadow-2xl ">
           <h3>SAY HELLO</h3>
           <div className="  "></div>
           <form className='mx-20' ref={form} onSubmit={sendEmail}  >
@@ -47,7 +47,7 @@ const Contact = () => {
               name='user_name'
               />
             <input
-             className='bg-white bg-opacity-50 h-10 placeholder-white' 
+             className='bg-white bg-opacity-50 h-10 placeholder-black' 
             type="text"
              placeholder='email'
              name='user_email'

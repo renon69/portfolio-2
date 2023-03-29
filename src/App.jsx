@@ -7,17 +7,14 @@ import Sidebar from './components/Sidebar'
 import About from './components/About'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
-import bg2 from '../src/images/svg/bg2.svg'
+
 
 const App = () => {
   return (
     
     <div>
-      <div className='flex justify-center z-0'>
-        <img className='absolute ' src={bg2} alt="" />
-      </div>
-     
-     < Hero/>
+      
+      < Hero/>
       <Sidebar/>
       <About/>
       <Skills/>
