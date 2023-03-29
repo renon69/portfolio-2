@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import bg1 from '../images/svg/bg1.svg'
 
 const Contact = () => {
   const[sent, setSent] = useState("send")
@@ -21,12 +22,15 @@ const Contact = () => {
 
   return (
     
-    <section className=' h-custom3 bg-orange-300 rounded-3xl ' id='contact'>
+    <section className=' h-custom3  relative ' id='contact'>
        <div className=" text-center   mx-28 ">
        
      <div class="grid grid-auto-fit gap-10 flex justify-center  ">
      
         {/* start of grid */}
+        <div className='flex justify-center'>
+          <img className='absolute ' src={bg1} alt="" />
+        </div>
         
 
         <div className="container bg-gray-300 border border-neutral-900 -mt-20 w-custom h-custom2 rounded-2xl shadow-2xl ">

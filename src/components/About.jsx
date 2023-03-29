@@ -1,10 +1,13 @@
 import React from 'react'
 import renon from '../images/png/renon.png'
-
+import bg3 from '../images/svg/bg3.svg'
 
 const About = () => {
   return (
     <div class='flex items-center justify-center pb-custom '>
+        <div className='flex justify-center absolute'>
+            <img className='' src={bg3} alt="" />
+        </div>
     <div class='w-full max-w-lg pt-7 flex flex-row items-center justify-center mx-auto bg-gray-200 rounded-2xl shadow-xl  '>
         <div class="flex flex-col md:flex-row w-3/4 md:w-5/6 space-x-0 md:space-x-8">
             <div class="w-full md:w-2/5 flex flex-col items-center justify-center">
