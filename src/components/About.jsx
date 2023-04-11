@@ -1,5 +1,5 @@
 import React from 'react'
-import renon from '../images/png/renon.png'
+import rv from '../images/png/rv.png'
 import bg3 from '../images/svg/bg3.svg'
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
     <div class='w-full max-w-lg pt-7 flex flex-row items-center justify-center mx-auto bg-gray-200 rounded-2xl shadow-xl  '>
         <div class="flex flex-col md:flex-row w-3/4 md:w-5/6 space-x-0 md:space-x-8">
             <div class="w-full md:w-2/5 flex flex-col items-center justify-center">
-                <img className='rounded-full bg-white' src={renon} alt="" />
+                <img className='rounded-full bg-white' src={rv} alt="" />
             </div>
             <div class="w-full md:w-3/5 space-y-4 flex flex-col justify-center items-center pb-10">
                 <div class="flex flex-col justify-center">
@@ -27,7 +27,7 @@ const About = () => {
                     <li class="text-sm text-gray-800"><strong class="text-gray-900"></strong>BSIT</li>
                     <li class="text-sm text-gray-800"><strong class="text-gray-900">Holy Name University</strong> </li>
                 </ul>
-                <button class="transition-colors bg-purple-700 hover:bg-purple-800 p-2 rounded-sm w-full text-white text-hover shadow-md shadow-purple-900 ">
+                <button class="bg-[#a4bad2] hover:bg-sky-400 p-2 rounded-sm w-full text-black text-hover shadow-md shadow-blue-900 ">
                     Let's Talk
                 </button>
             </div>

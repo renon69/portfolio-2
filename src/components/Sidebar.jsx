@@ -28,7 +28,7 @@ const Sidebar = () => {
                 </div>
                 <img src={frontend2} class="w-3/4 ml-auto" alt="illustration" loading="lazy" width="900" height="600"/>
             </div>
-            <div class="bg-gray-200 rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8 -mt-10 mb-20">
+            <div class="bg-gray-200 rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8 mt-10  ">
                 <div class="mb-12 space-y-4">
                     <h3 class="text-2xl font-semibold text-purple-900">Back End</h3>
                     <p class="mb-6">I design and develop a server-side logic using PHP with Laravel framework. and also integrate MySQL databases to store and retrieve large amount of data</p>
