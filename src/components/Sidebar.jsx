@@ -31,7 +31,7 @@ const Sidebar = () => {
             <div class="bg-gray-200 rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8 mt-10  ">
                 <div class="mb-12 space-y-4">
                     <h3 class="text-2xl font-semibold text-purple-900">Back End</h3>
-                    <p class="mb-6">I design and develop a server-side logic using PHP with Laravel framework. and also integrate MySQL databases to store and retrieve large amount of data</p>
+                    <p class="mb-6">I design and develop a server-side logic using PHP with Laravel framework. and also integrate MySQL databases to store and retrieve data</p>
                     <a href="#" class="block font-medium text-purple-600">Know more</a>
                 </div>
                 <img src={backend} class="w-2/3 ml-auto " alt="illustration" loading="lazy" width="900" height="600"/>
