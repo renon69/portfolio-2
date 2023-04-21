@@ -39,7 +39,7 @@ const Contact = () => {
           <form className='mx-20' ref={form} onSubmit={sendEmail}  >
           <div className="grid grid-auto-fit gap-4 ">
             <input
-             className='bg-white h-10 placeholder-black'
+             className='bg-white h-10 placeholder-gray-300'
               type="text" 
               placeholder='name'
               pattern = '^[a-zA-Z]{2,}([ ][a-zA-Z]{2,})*$'
@@ -47,7 +47,7 @@ const Contact = () => {
               name='user_name'
               />
             <input
-             className='bg-white bg-opacity-50 h-10 placeholder-black' 
+             className='bg-white  h-10 placeholder-gray-300' 
             type="text"
              placeholder='email'
              name='user_email'
@@ -55,18 +55,18 @@ const Contact = () => {
              pattern = '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
              />
             <input
-             className='bg-white h-10 placeholder-black'              
+             className='bg-white h-10 placeholder-gray-300'              
               type="tel"
               placeholder='telephone'
               required
           
               />
             <textarea 
-            className='bg-white bg-opacity-50 placeholder-black' 
+            className='bg-white  placeholder-gray-300' 
              name="message" 
             id="" rows="6" placeholder='message'></textarea>
             <button onClick={handleClick}
-             className=' bg-white w-20 flex justify-center opacity-50'>{sent}</button>
+             className=' bg-white w-20 flex justify-center opacity-50 text-black hover:bg-black hover:text-white'>{sent}</button>
              
           </div>
           </form>
